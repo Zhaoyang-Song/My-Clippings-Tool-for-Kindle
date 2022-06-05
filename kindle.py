@@ -17,32 +17,33 @@ HTML_HEAD = """<!DOCTYPE html>
 	<link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
 	<!-- 下面是回到顶部组件的样式设置 -->
 	<style>
-    .box{
-        position:fixed;
-        right:10px;
-        bottom:15px;
-        height:40px;
-        width: 40px;    
-        text-align:center;
-        padding-top:20px;    
-        background-color: #337AB7;
-        opacity:0.4;
-        border-radius: 40%;
-        overflow: hidden;
-    }
-    .box:hover:before{
-        top:50%
-    }
-    .box-in{
-        visibility: visible;
-        display:inline-block;
-        height:28px;
-        width: 28px;
-        border: 3.4px solid black;
-        border-color: white transparent transparent white;
-        transform:rotate(45deg);
-    }
-    </style>
+	    .box{
+		position:fixed;
+		right:10px;
+		bottom:15px;
+		height:40px;
+		width: 40px;    
+		text-align:center;
+		z-index:999;
+		padding-top:20px;    
+		background-color: #337AB7;
+		opacity:0.4;
+		border-radius: 40%;
+		overflow: hidden;
+	    }
+	    .box:hover:before{
+		top:50%
+	    }
+	    .box-in{
+		visibility: visible;
+		display:inline-block;
+		height:28px;
+		width: 28px;
+		border: 3.4px solid black;
+		border-color: white transparent transparent white;
+		transform:rotate(45deg);
+	    }
+	</style>
 </head>
 <body>
 """
