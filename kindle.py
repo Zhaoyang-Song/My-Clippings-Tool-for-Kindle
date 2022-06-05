@@ -61,7 +61,6 @@ INDEX_TITLE = """
 
 BOOK_TITLE = """
     <!-- 下面是回到顶部组件 -->
-    <body style="height:2000px;">
     <div id="box" class="box">
         <div class="box-in"></div>
     </div>    
