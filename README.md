@@ -4,7 +4,7 @@
 
 ## 使用说明
 
-将 `My Clippings.txt` 文件拉至根目录下后运行 `kindle.py`。
+将 `My Clippings.txt` 文件拉至根目录下后运行 `MyClippingsTool.py`
 
 运行后生成的 `index.html` 文件是所有 `html` 文件的第一层索引，浏览器打开可浏览转换结果。
 
