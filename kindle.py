@@ -49,6 +49,33 @@ HTML_HEAD = """<!DOCTYPE html>
 """
 
 INDEX_TITLE = """
+    <!-- 下面是回到顶部组件 -->
+    <div id="box" class="box">
+        <div class="box-in"></div>
+    </div>    
+    <script>
+    var timer  = null;
+    box.onclick = function(){
+        cancelAnimationFrame(timer);
+        //获取当前毫秒数
+        var startTime = +new Date();     
+        //获取当前页面的滚动高度
+        var b = document.body.scrollTop || document.documentElement.scrollTop;
+        var d = 400;
+        var c = b;
+        timer = requestAnimationFrame(function func(){
+            var t = d - Math.max(0,startTime - (+new Date()) + d);
+            document.documentElement.scrollTop = document.body.scrollTop = t * (-c) / d + b;
+            timer = requestAnimationFrame(func);
+            if(t == d){
+              cancelAnimationFrame(timer);
+            }
+        });
+    }
+    </script>
+    </body>
+    <!-- 回到顶部组件结束 -->
+    
 	<div class="container">
 		<header class="header col-md-12">
 			<div class="page-header">
