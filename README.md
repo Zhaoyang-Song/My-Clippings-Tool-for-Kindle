@@ -8,7 +8,7 @@
 
 ## 特性变化
 
-- **2022年6月5日**：增加回到顶部功能组件
+- **2022年6月5日**：改进页面细节，增加回到顶部功能组件
 
 ## 致谢
 - [cyang812/kindleNote](https://github.com/cyang812/kindleNote)
