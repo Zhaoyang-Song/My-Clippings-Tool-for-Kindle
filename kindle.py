@@ -44,6 +44,7 @@ HTML_HEAD = """<!DOCTYPE html>
 		transform:rotate(45deg);
 	    }
 	</style>
+	<!-- 回到顶部组件样式设置结束 -->
 </head>
 <body>
 """
