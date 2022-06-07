@@ -88,7 +88,7 @@ INDEX_TITLE = """
 	<div class="container">
 		<header class="header col-md-12">
 			<div class="page-header">
-				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Kindle 读书笔记 </small> <span class="badge">更新于 UPDATE </span> <span class="badge"> 共 BOOKS_SUM 本书，SENTENCE_SUM 条笔记</span></h1>
+				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Kindle 读书笔记 </small><br/><span class="badge">更新于 UPDATE </span><br/><span class="badge"> 共 BOOKS_SUM 本书，SENTENCE_SUM 条笔记</span></h1>
 			</div>
 		</header>
 	<div class="col-md-12">
