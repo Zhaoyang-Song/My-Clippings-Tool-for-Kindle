@@ -45,6 +45,14 @@ HTML_HEAD = """<!DOCTYPE html>
 	    }
 	</style>
 	<!-- 回到顶部组件样式设置结束 -->
+	
+	<!-- 下面是主体背景颜色设置，无底纹 -->
+  	<style>
+		body{
+		    background: #f2f2f2;
+		}
+        </style>
+   	<!-- 主体背景颜色设置结束 -->
 </head>
 <body>
 """
