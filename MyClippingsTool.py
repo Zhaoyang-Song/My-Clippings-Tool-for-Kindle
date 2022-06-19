@@ -229,12 +229,19 @@ def render_index_html():
             .replace("UPDATE", time.strftime("%Y-%m-%d %H:%M", time.localtime()))
             .replace("BOOKS_SUM", str(len(all_books)))
         )
-        for book in all_books:
-            f.write(
-                ITEM_CONTENT.replace("HTML_URL", "books/" + book["url"] + ".html")
-                    .replace("HTML_FILE_NAME", book["name"] + "（" + book["author"] + "）")
-                    .replace("SENTENCE_COUNT", str(book["nums"]))
-            )
+        for book in all_books: # 这里控制外部条目的展示信息
+		if book["author"] == "":
+			f.write(
+			    	ITEM_CONTENT.replace("HTML_URL", "books/" + book["url"] + ".html")
+				.replace("HTML_FILE_NAME", book["name"] )
+				.replace("SENTENCE_COUNT", str(book["nums"]))
+			)
+	   	else:
+			f.write( 
+				ITEM_CONTENT.replace("HTML_URL", "books/" + book["url"] + ".html")
+				.replace("HTML_FILE_NAME", book["name"] + "（" + book["author"] + "）") # 外部含有作者名字
+				.replace("SENTENCE_COUNT", str(book["nums"]))
+				 )
         f.write(FOOTER_CONTENT)
 
 def render_books_html():
@@ -247,9 +254,14 @@ def render_books_html():
         book_author = all_books[i]["author"]
         with open("books/" + book_url + ".html", "w", encoding="utf-8") as f:
             f.write(HTML_HEAD)
-            f.write(
-                BOOK_TITLE.replace("BookName", book_name + "（" + book_author + "）")
-            )
+	    if len(book_author) > 0: # 内部的html命名规则制定
+		f.write(
+			BOOK_TITLE.replace("BookName", book_name + "（" + book_author + "）")
+			) # 内部的html含有作者名
+	    else:
+		f.write(
+			BOOK_TITLE.replace("BookName", book_name)
+			)
             for j in range(len(all_books[i]["marks"])):
                 mark = all_books[i]["marks"][j]
                 f.write(
