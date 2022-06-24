@@ -161,6 +161,15 @@ ITEM_CONTENT = """          <a href="HTML_URL" class="list-group-item"><span cla
 FOOTER_CONTENT = """
         </div>
     </div>
+    
+    <div class="footer">
+    <center>
+    <footer class="mittig">
+        © Powered by <a href="https://github.com/Zhaoyang-Song/My-Clippings-Tool-for-Kindle" target="_blank">My Clippings Tool for Kindle</a>
+    </footer>
+    </center>
+    </div>
+
 </body>
 </html>
 """
