@@ -165,7 +165,7 @@ FOOTER_CONTENT = """
     <div class="footer">
     <center>
     <footer class="mittig">
-        © Powered by <a href="https://github.com/Zhaoyang-Song/My-Clippings-Tool-for-Kindle" target="_blank">My Clippings Tool for Kindle</a>
+        <small>© Powered by <a href="https://github.com/Zhaoyang-Song/My-Clippings-Tool-for-Kindle" target="_blank">My Clippings Tool for Kindle</a></small>
     </footer>
     </center>
     </div>
