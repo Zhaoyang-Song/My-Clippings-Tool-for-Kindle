@@ -13,7 +13,7 @@ A tool to convert `My Clippings.txt` from your Kindle into HTML files. Manage yo
 
 运行后生成的 `index.html` 文件是所有 `html` 文件的第一层索引，浏览器打开可浏览转换结果
 
-> **注意：**管理好自己的 `My Clippings.txt` 文件备份以防止误操作
+> 注意：管理好自己的 `My Clippings.txt` 文件备份以防止误操作
 
 ## 特性变化
 
