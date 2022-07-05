@@ -6,7 +6,7 @@ Copy the `My Clippings.txt` file to the root of the script and run `MyClippingsT
 
 The `index.html` file generated after running is the first level index of all html files and can be opened by browser to view the conversion results.
 
-> Note: Manage a backup of your `My Clippings.txt` file to prevent misuse.
+> Note: Backup your `My Clippings.txt` regularly retaining some backward copies to prevent misuse.
 
 ## Acknowledgements
 
