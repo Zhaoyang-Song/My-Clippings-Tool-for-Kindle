@@ -10,7 +10,7 @@ HTML_HEAD = """<!DOCTYPE html>
 <html>
 	<head>
 	<meta charset="utf-8" />
-	<title> Kindle 读书笔记 </title>
+	<title> Kindle Reading Notes </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
@@ -88,7 +88,7 @@ INDEX_TITLE = """
 	<div class="container">
 		<header class="header col-md-12">
 			<div class="page-header">
-				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Kindle 读书笔记 </small><br/><span class="badge">更新于 UPDATE </span> <span class="badge"> 共 BOOKS_SUM 本书，SENTENCE_SUM 条笔记</span></h1>
+				<h1><small>Kindle Reading Notes </small><br/><span class="badge">Updated UPDATE </span> <span class="badge"> Books: BOOKS_SUM，Notes: SENTENCE_SUM</span></h1>
 			</div>
 		</header>
 	<div class="col-md-12">
@@ -133,7 +133,7 @@ BOOK_TITLE = """
         <div class="col-md-2">
 			<ul class="nav nav-pills nav-stacked go-back">
 				<li role="presentation" class="active text-center">
-					<a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 返回目录</a>
+					<a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Contents</a>
 				</li>
 			</ul>
 		</div>
@@ -155,7 +155,7 @@ MARK_CONTENT = """
         </div>
 """
 
-ITEM_CONTENT = """          <a href="HTML_URL" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> HTML_FILE_NAME <span class="glyphicon glyphicon-tag" aria-hidden="true">SENTENCE_COUNT</span></a>
+ITEM_CONTENT = """          <a href="HTML_URL" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> HTML_FILE_NAME <div align="right"><span align="right" class="glyphicon glyphicon-tag" aria-hidden="true">SENTENCE_COUNT</span></div></a>
 """
 
 FOOTER_CONTENT = """
@@ -304,5 +304,5 @@ if __name__ == "__main__":
     render_index_html()
     render_books_html()
     render_date_json()
-    print("书籍总数：", len(all_books))
-    print("笔记总数：", len(all_marks))
+    print("Number of Books:", len(all_books))
+    print("Number of Notes:", len(all_marks))
