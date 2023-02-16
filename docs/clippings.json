@@ -1,0 +1,46 @@
+[
+  {
+    "name": "README",
+    "author": "",
+    "url": "c47c7c7383225ab55ff591cb59c41e6b",
+    "nums": 2,
+    "marks": [
+      {
+        "time": " 添加于 2023年1月1日星期三 下午11:11:11",
+        "address": "您在位置 #0000-0000的标注",
+        "content": "A tool to convert `My Clippings.txt` from your Kindle into HTML files. Manage your Kindle clippings more easily!"
+      },
+      {
+        "time": " 添加于 2023年1月1日星期三 下午11:11:11",
+        "address": "您在位置 #0000-0000的标注",
+        "content": "<b>HOW TO USE</b></br>Copy the `My Clippings.txt` file to the root of the script and run `MyClippingsTool.py`</br>The `index.html` file generated after running is the first level index of all html files and can be opened by browser to view the conversion results."
+      }
+    ]
+  },
+  {
+    "name": "!!! NOTE !!!",
+    "author": "",
+    "url": "60a1c42aeb6d132d565f51c739dc922a",
+    "nums": 1,
+    "marks": [
+      {
+        "time": " 添加于 2023年1月1日星期三 下午11:11:11",
+        "address": "您在位置 #0000-0000的标注",
+        "content": "Backup your `My Clippings.txt` regularly retaining some backward copies to prevent misuse."
+      }
+    ]
+  },
+  {
+    "name": "中文显示 Chinese Display",
+    "author": "",
+    "url": "848b3e79d57bb7289823297f3b96c134",
+    "nums": 1,
+    "marks": [
+      {
+        "time": " 添加于 2023年1月1日星期三 下午11:11:11",
+        "address": "您在位置 #0000-0000的标注",
+        "content": "生年不满百，常怀千岁忧。</br>昼短苦夜长，何不秉烛游！</br>为乐当及时，何能待来兹？</br>愚者爱惜费，但为后世嗤。</br>仙人王子乔，难可与等期。"
+      }
+    ]
+  }
+]
