@@ -1,8 +1,8 @@
 **中文 | [English](README.md)**
 
-## 项目说明
-
 基于 Python3 编写。用于将 Kindle 标注笔记文件 `My Clippings.txt` 转换成 `HTML` 文件
+
+[在这里可以预览此脚本的生成效果](https://zhaoyang-song.github.io/My-Clippings-Tool-for-Kindle/)
 
 ## 使用说明
 

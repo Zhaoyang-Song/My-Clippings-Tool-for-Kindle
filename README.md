@@ -2,6 +2,8 @@
 
 A tool to convert `My Clippings.txt` from your Kindle into HTML files. Manage your Kindle clippings more easily!
 
+[You can preview the result here.](https://zhaoyang-song.github.io/My-Clippings-Tool-for-Kindle/)
+
 ## How to Use
 
 Copy the `My Clippings.txt` file to the root of the script and run `MyClippingsTool.py` 
