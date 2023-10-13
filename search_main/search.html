@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="search_script/search.css">
+    <style>
+        body {  /* Style the body */
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="page-header">
+            <h1><small>Kindle Reading Notes <br/> Search Page</small></h1>
+            <a href="../index.html">📍Contents</a>
+        </div>
+    </header>
+
+    <div class='searchbox'></span>
+        <form class="searchbox" onSubmit="return check();" autocomplete="off">
+
+            <div class="search-input">
+                <input id="input" type="text" placeholder="输入搜索内容 Enter search content" name="search" oninput="searchtext()" onpropertychange="searchtext()">
+            </div>
+            
+            <div class="resultlist" id="resultlist">
+                <i>- 搜索 Search -</i>
+                <hr>
+                <p align="center">
+                    请输入搜索内容（不支持模糊搜索）<br />Please enter search content (fuzzy search is not supported)
+                </p>
+                </hr>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script type="text/javascript" src="search_script/searcher.js"></script>
+
+</html>

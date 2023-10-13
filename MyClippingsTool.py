@@ -89,6 +89,7 @@ INDEX_TITLE = """
 		<header class="header col-md-12">
 			<div class="page-header">
 				<h1><small>Kindle Reading Notes </small><br/><span class="badge">Updated UPDATE </span> <span class="badge"> Books: BOOKS_SUM，Notes: SENTENCE_SUM</span></h1>
+                <a href="search_main/search.html">📍Search Page</a>
 			</div>
 		</header>
 	<div class="col-md-12">

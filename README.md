@@ -6,11 +6,21 @@ A tool to convert `My Clippings.txt` from your Kindle into HTML files. Manage yo
 
 ## How to Use
 
-Copy the `My Clippings.txt` file to the root of the script and run `MyClippingsTool.py` 
+Copy the `My Clippings.txt` file to the root of the script and run `run.bat` 
+
+You can also manually run it in the root directory:
+
+```bash
+python MyClippingsTool.py
+```
+
+```bash
+python search_main/search.py
+```
 
 The `index.html` file generated after running is the first level index of all html files and can be opened by browser to view the conversion results.
 
-> **NOTE**: Backup your `My Clippings.txt` regularly retaining some backward copies to prevent misuse.
+> **NOTE: Backup your `My Clippings.txt` regularly retaining some backward copies to prevent misuse.**
 
 ## Acknowledgements
 
