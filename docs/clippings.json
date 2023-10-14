@@ -13,7 +13,7 @@
       {
         "time": " 添加于 2023年1月1日星期三 下午11:11:11",
         "address": "您在位置 #0000-0000的标注",
-        "content": "<b>HOW TO USE</b></br>Copy the `My Clippings.txt` file to the root of the script and run `MyClippingsTool.py`</br>The `index.html` file generated after running is the first level index of all html files and can be opened by browser to view the conversion results."
+        "content": "The index.html file generated after running is the first level index of all html files and can be opened by browser to view the conversion results."
       }
     ]
   },

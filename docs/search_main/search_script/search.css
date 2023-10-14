@@ -48,6 +48,7 @@ form.searchbox::after {
     margin: 0 auto; /* 居中对齐 */
 }
 
+
 .resultlist * {
     margin: 2px;
 }
@@ -108,4 +109,14 @@ mark {
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
+}
+
+
+#copyright {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 45px 0; /* 上下各20px，左右0px */
+    text-align: center;
 }
